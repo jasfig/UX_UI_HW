@@ -1,15 +1,22 @@
-.inline-block {
-    display: inline-block;
+
+
+.container-grid {
+    display: grid;
     vertical-align: top;
+    background-color: black;
+    padding: 10px;   
+    text-align: right;
+    color: #f4f4f4; 
 }
 .logo {
-    width: 23%;
+    width: 2%;
     padding: 1%;
     text-align: center;
 }
 .nav {
-    width: 73%;
+    display: grid;
     padding: 1%;
+    
 }
 .ul {
     width: 50%;
@@ -17,14 +24,18 @@
     padding: 1%;
 }
 .heroImg {
+    align-content: center;
     height: 600px;
     padding: 25px;
+    background-color: black;
 }
 .content {
     width: 500px;
     margin: 0 auto;
 }
 .footer {
-    background-color: #373738;
-    padding: 55%;
+    display: grid;
+    text-align: left;
+    background-color: black;
+    color: #f4f4f4;
 }
