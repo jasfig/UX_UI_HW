@@ -2,40 +2,30 @@
 
 .container-grid {
     display: grid;
-    vertical-align: top;
-    background-color: black;
     padding: 10px;   
     text-align: right;
-    color: #f4f4f4; 
-}
-.logo {
-    width: 2%;
-    padding: 1%;
-    text-align: center;
-}
-.nav {
-    display: grid;
-    padding: 1%;
-    
-}
-.ul {
-    width: 50%;
-    margin-left: auto;
-    padding: 1%;
+    background-color: black;
+    color: white;
 }
 .heroImg {
-    align-content: center;
-    height: 600px;
-    padding: 25px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
+    justify-content: center;
 }
 .footer {
     display: grid;
     text-align: left;
+    color: white;
     background-color: black;
-    color: #f4f4f4;
+    padding: 25px;
+}
+.ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
